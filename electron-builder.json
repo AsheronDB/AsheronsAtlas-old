@@ -1,0 +1,50 @@
+{
+  "productName": "Asheron's Atlas",
+  "extraMetadata": {
+    "name": "Asherons Atlas"
+  },
+  "appId": "com.asherondb.asheronsatlas",
+  "copyright": "Copyright © 2023 AsheronDB",
+  "generateUpdatesFilesForAllChannels": true,
+  "asar": true,
+  "icon": "public/favicon.ico",
+  "directories": {
+    "output": "release/${version}"
+  },
+  "files": ["dist-electron", "dist"],
+  "mac": {
+    "artifactName": "AsheronsAtlas_${version}.${ext}",
+    "executableName": "Asheron's Atlas",
+    "category": "public.app-category.reference",
+    "hardenedRuntime": true,
+    "publish": [
+      {
+        "provider": "github"
+      }
+    ],
+    "target": [
+      {
+        "target": "dmg",
+        "arch": ["universal"]
+      }
+    ]
+  },
+  "win": {
+    "artifactName": "AsheronsAtlas_${version}.${ext}",
+    "executableName": "Asheron's Atlas",
+    "verifyUpdateCodeSignature": false,
+    "publish": ["github"],
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64", "ia32"]
+      }
+    ]
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": true,
+    "allowToChangeInstallationDirectory": true,
+    "deleteAppDataOnUninstall": true
+  }
+}

@@ -2,7 +2,7 @@
   "name": "asheronsatlas",
   "version": "0.1.1",
   "main": "dist-electron/main/index.js",
-  "description": "Asheron's Atlas development repository.",
+  "description": "A modern mapping desktop app for the MMORPG Asheron's Call.",
   "productName": "Asheron's Atlas",
   "author": "AsheronDB <hello@asherondb.com>",
   "license": "MIT",
@@ -19,67 +19,8 @@
     "build:win": "vite build && electron-builder -w",
     "publish:mac": "vite build && electron-builder -m --publish=always",
     "publish:win": "vite build && electron-builder -w --publish=always",
-    "upgrade": "gh release create v$npm_package_version"
-  },
-  "build": {
-    "productName": "Asheron's Atlas",
-    "extraMetadata": {
-      "name": "Asherons Atlas"
-    },
-    "appId": "com.asherondb.asheronsatlas",
-    "copyright": "Copyright © 2023 AsheronDB",
-    "generateUpdatesFilesForAllChannels": true,
-    "asar": true,
-    "icon": "public/favicon.ico",
-    "directories": {
-      "output": "release/${version}"
-    },
-    "files": [
-      "dist-electron",
-      "dist"
-    ],
-    "mac": {
-      "artifactName": "AsheronsAtlas_${version}.${ext}",
-      "executableName": "Asheron's Atlas",
-      "category": "public.app-category.reference",
-      "hardenedRuntime": true,
-      "publish": [
-        {
-          "provider": "github"
-        }
-      ],
-      "target": [
-        {
-          "target": "dmg",
-          "arch": [
-            "universal"
-          ]
-        }
-      ]
-    },
-    "win": {
-      "artifactName": "AsheronsAtlas_${version}.${ext}",
-      "executableName": "Asheron's Atlas",
-      "verifyUpdateCodeSignature": false,
-      "publish": [
-        "github"
-      ],
-      "target": [
-        {
-          "target": "nsis",
-          "arch": [
-            "x64",
-            "ia32"
-          ]
-        }
-      ]
-    },
-    "nsis": {
-      "oneClick": false,
-      "perMachine": true,
-      "allowToChangeInstallationDirectory": true,
-      "deleteAppDataOnUninstall": true
-    }
+    "upgrade": "gh release create v$npm_package_version --generate-notes --verify-tag --latest --draft",
+    "publish-release": "gh release edit v$npm_package_version --draft=false"
   },
   "debug": {
     "env": {
