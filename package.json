@@ -1,6 +1,6 @@
 {
   "name": "asheronsatlas",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0",
   "main": "dist-electron/main/index.js",
   "description": "Asheron's Atlas development repository.",
   "productName": "Asheron's Atlas",
@@ -18,7 +18,8 @@
     "build:mac": "vite build && electron-builder -m",
     "build:win": "vite build && electron-builder -w",
     "publish:mac": "vite build && electron-builder -m --publish=always",
-    "publish:win": "vite build && electron-builder -w --publish=always"
+    "publish:win": "vite build && electron-builder -w --publish=always",
+    "upgrade": "gh release create v$npm_package_version"
   },
   "build": {
     "productName": "Asheron's Atlas",
