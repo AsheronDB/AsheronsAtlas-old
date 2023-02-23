@@ -21,7 +21,7 @@ var bodyParser = require("body-parser");
   const api = require("./routes");
   app.use(api);
 
-  let server = app.listen(port, () => {
+  let server = app.listen(port, '127.0.0.1', () => {
     let currentPort = server.address().port;
     console.log(currentPort);
     process.send({
