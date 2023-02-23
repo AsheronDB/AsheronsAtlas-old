@@ -1,0 +1,2526 @@
+[
+  [
+    {
+      "generator": {
+        "id": 2958,
+        "object_Id": 1999,
+        "probability": 0.1,
+        "weenie_Class_Id": 1991,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 2890,
+        "object_Id": 1991,
+        "probability": 0.1,
+        "weenie_Class_Id": 182,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 5,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 7
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2891,
+        "object_Id": 1991,
+        "probability": 0.2,
+        "weenie_Class_Id": 182,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 4,
+        "origin_Y": 4,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 7
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2892,
+        "object_Id": 1991,
+        "probability": 0.3,
+        "weenie_Class_Id": 182,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -5,
+        "origin_Y": -4,
+        "origin_Z": 0,
+        "angles_W": -0.642788,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.766044
+      },
+      "radius": 7
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2893,
+        "object_Id": 1991,
+        "probability": 0.4,
+        "weenie_Class_Id": 182,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -1,
+        "origin_Y": 3,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 7
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2894,
+        "object_Id": 1991,
+        "probability": 0.45,
+        "weenie_Class_Id": 181,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -1,
+        "origin_Y": 0.1,
+        "origin_Z": 0,
+        "angles_W": 0.965926,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.258819
+      },
+      "radius": 7
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2895,
+        "object_Id": 1991,
+        "probability": 0.5,
+        "weenie_Class_Id": 20,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -1.5,
+        "origin_Y": 4,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 7
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2896,
+        "object_Id": 1991,
+        "probability": 0.55,
+        "weenie_Class_Id": 181,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 0.965926,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.258819
+      },
+      "radius": 7
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2959,
+        "object_Id": 1999,
+        "probability": 0.2,
+        "weenie_Class_Id": 4306,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 3529,
+        "object_Id": 4306,
+        "probability": 0.25,
+        "weenie_Class_Id": 6,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 0.707107,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.707107
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3530,
+        "object_Id": 4306,
+        "probability": 0.5,
+        "weenie_Class_Id": 6,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 3.5,
+        "origin_Y": 3,
+        "origin_Z": 0,
+        "angles_W": 0.642788,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.766044
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3531,
+        "object_Id": 4306,
+        "probability": 0.7,
+        "weenie_Class_Id": 6,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -3.5,
+        "origin_Y": -3,
+        "origin_Z": 0,
+        "angles_W": 0.707107,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.707107
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3532,
+        "object_Id": 4306,
+        "probability": 0.85,
+        "weenie_Class_Id": 937,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 0.258819,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.965926
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3533,
+        "object_Id": 4306,
+        "probability": 0.9,
+        "weenie_Class_Id": 4179,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -4,
+        "origin_Y": -3,
+        "origin_Z": 0,
+        "angles_W": 0.5,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.866025
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3534,
+        "object_Id": 4306,
+        "probability": 0.95,
+        "weenie_Class_Id": 4380,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 6,
+        "origin_Y": -1,
+        "origin_Z": 0,
+        "angles_W": 0.422618,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.906308
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3535,
+        "object_Id": 4306,
+        "probability": 1,
+        "weenie_Class_Id": 6117,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 1.5,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 0.999048,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.043619
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2960,
+        "object_Id": 1999,
+        "probability": 0.26,
+        "weenie_Class_Id": 4292,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 3466,
+        "object_Id": 4292,
+        "probability": 0.3,
+        "weenie_Class_Id": 1631,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2,
+        "origin_Y": 1,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3467,
+        "object_Id": 4292,
+        "probability": 0.6,
+        "weenie_Class_Id": 1631,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -1.4,
+        "origin_Y": 2.4,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3468,
+        "object_Id": 4292,
+        "probability": 0.8,
+        "weenie_Class_Id": 233,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 1,
+        "origin_Y": 2.4,
+        "origin_Z": 0,
+        "angles_W": 0.707107,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.707107
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3469,
+        "object_Id": 4292,
+        "probability": 0.9,
+        "weenie_Class_Id": 1632,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 1,
+        "origin_Y": 2.4,
+        "origin_Z": 0,
+        "angles_W": 0.737277,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.67559
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3470,
+        "object_Id": 4292,
+        "probability": 1,
+        "weenie_Class_Id": 4179,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 1,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2961,
+        "object_Id": 1999,
+        "probability": 0.31,
+        "weenie_Class_Id": 4172,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 3325,
+        "object_Id": 4172,
+        "probability": 0.2,
+        "weenie_Class_Id": 7,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 4,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3326,
+        "object_Id": 4172,
+        "probability": 0.4,
+        "weenie_Class_Id": 193,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2.4,
+        "origin_Y": 2.4,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3327,
+        "object_Id": 4172,
+        "probability": 0.6,
+        "weenie_Class_Id": 940,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2.4,
+        "origin_Y": -2.4,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3328,
+        "object_Id": 4172,
+        "probability": 0.8,
+        "weenie_Class_Id": 192,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": -2,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3329,
+        "object_Id": 4172,
+        "probability": 1,
+        "weenie_Class_Id": 4179,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2962,
+        "object_Id": 1999,
+        "probability": 0.37,
+        "weenie_Class_Id": 1191,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 1692,
+        "object_Id": 1191,
+        "probability": 0.9,
+        "weenie_Class_Id": 215,
+        "delay": 900,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2963,
+        "object_Id": 1999,
+        "probability": 0.45,
+        "weenie_Class_Id": 2010,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 3193,
+        "object_Id": 2010,
+        "probability": 0.25,
+        "weenie_Class_Id": 223,
+        "delay": 2700,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 3,
+        "origin_Y": 1,
+        "origin_Z": 0,
+        "angles_W": 0.707107,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.707107
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3194,
+        "object_Id": 2010,
+        "probability": 0.5,
+        "weenie_Class_Id": 221,
+        "delay": 2700,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2.4,
+        "origin_Y": 2.4,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3195,
+        "object_Id": 2010,
+        "probability": 0.75,
+        "weenie_Class_Id": 222,
+        "delay": 2700,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2.4,
+        "origin_Y": -2.4,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3196,
+        "object_Id": 2010,
+        "probability": 0.9,
+        "weenie_Class_Id": 18,
+        "delay": 2700,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": -2,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3197,
+        "object_Id": 2010,
+        "probability": 1,
+        "weenie_Class_Id": 265,
+        "delay": 2700,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 3,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2964,
+        "object_Id": 1999,
+        "probability": 0.5,
+        "weenie_Class_Id": 4298,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 3490,
+        "object_Id": 4298,
+        "probability": 0.3,
+        "weenie_Class_Id": 4111,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -1,
+        "origin_Y": 2,
+        "origin_Z": 0,
+        "angles_W": 0.953717,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.300706
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3491,
+        "object_Id": 4298,
+        "probability": 0.6,
+        "weenie_Class_Id": 4111,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2.8,
+        "origin_Y": -1.8,
+        "origin_Z": 0,
+        "angles_W": 0.737277,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.67559
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3492,
+        "object_Id": 4298,
+        "probability": 0.9,
+        "weenie_Class_Id": 4111,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 1.4,
+        "origin_Y": 2.2,
+        "origin_Z": 0,
+        "angles_W": 0.62932,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.777146
+      },
+      "radius": 3
+    },
+    {
+      "generator": {
+        "id": 16180,
+        "object_Id": 4111,
+        "probability": 1,
+        "weenie_Class_Id": 26687,
+        "delay": 0,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 2
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 16180,
+        "object_Id": 4111,
+        "probability": 1,
+        "weenie_Class_Id": 26687,
+        "delay": 0,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 2
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 16180,
+        "object_Id": 4111,
+        "probability": 1,
+        "weenie_Class_Id": 26687,
+        "delay": 0,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 2
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 16180,
+        "object_Id": 4111,
+        "probability": 1,
+        "weenie_Class_Id": 26687,
+        "delay": 0,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 2
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3493,
+        "object_Id": 4298,
+        "probability": 1,
+        "weenie_Class_Id": 4110,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -2,
+        "origin_Y": -1,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 3
+    },
+    {
+      "generator": {
+        "id": 16179,
+        "object_Id": 4110,
+        "probability": 1,
+        "weenie_Class_Id": 26684,
+        "delay": 0,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 2
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2965,
+        "object_Id": 1999,
+        "probability": 0.52,
+        "weenie_Class_Id": 4315,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 3581,
+        "object_Id": 4315,
+        "probability": 0.2,
+        "weenie_Class_Id": 211,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 4,
+        "origin_Y": 1,
+        "origin_Z": 0,
+        "angles_W": 0,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -1
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3582,
+        "object_Id": 4315,
+        "probability": 0.4,
+        "weenie_Class_Id": 211,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2.4,
+        "origin_Y": 3.4,
+        "origin_Z": 0,
+        "angles_W": 0.258819,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.965926
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3583,
+        "object_Id": 4315,
+        "probability": 0.5,
+        "weenie_Class_Id": 211,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2,
+        "origin_Y": -2.4,
+        "origin_Z": 0,
+        "angles_W": 0.707107,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.707107
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3584,
+        "object_Id": 4315,
+        "probability": 0.65,
+        "weenie_Class_Id": 211,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -4,
+        "origin_Y": -1.5,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3585,
+        "object_Id": 4315,
+        "probability": 0.75,
+        "weenie_Class_Id": 947,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0.5,
+        "origin_Y": -0.5,
+        "origin_Z": 0,
+        "angles_W": 0.642788,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.766044
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3586,
+        "object_Id": 4315,
+        "probability": 0.85,
+        "weenie_Class_Id": 948,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -1,
+        "origin_Y": 2,
+        "origin_Z": 0,
+        "angles_W": 0.642788,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.766044
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3587,
+        "object_Id": 4315,
+        "probability": 0.9,
+        "weenie_Class_Id": 4380,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -0.5,
+        "origin_Y": 0.1,
+        "origin_Z": 0,
+        "angles_W": 0.819152,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.573577
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3588,
+        "object_Id": 4315,
+        "probability": 0.95,
+        "weenie_Class_Id": 4382,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0.5,
+        "origin_Z": 0,
+        "angles_W": 0.92388,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.382684
+      },
+      "radius": 3
+    },
+    {
+      "generator": {
+        "id": 794,
+        "object_Id": 4382,
+        "probability": 0.1,
+        "weenie_Class_Id": 5339,
+        "delay": 1000,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 2,
+        "where_Create": 8,
+        "stack_Size": 10,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 1
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 795,
+        "object_Id": 4382,
+        "probability": 0.2,
+        "weenie_Class_Id": 5338,
+        "delay": 1500,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 2,
+        "where_Create": 8,
+        "stack_Size": 5,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 1
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 796,
+        "object_Id": 4382,
+        "probability": 0.3,
+        "weenie_Class_Id": 4768,
+        "delay": 1500,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 2,
+        "where_Create": 8,
+        "stack_Size": 2,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 1
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 797,
+        "object_Id": 4382,
+        "probability": 0.4,
+        "weenie_Class_Id": 5328,
+        "delay": 1500,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 2,
+        "where_Create": 8,
+        "stack_Size": 5,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 1
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 798,
+        "object_Id": 4382,
+        "probability": 1,
+        "weenie_Class_Id": 454,
+        "delay": 1500,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 2,
+        "where_Create": 72,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 1
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3589,
+        "object_Id": 4315,
+        "probability": 1,
+        "weenie_Class_Id": 6117,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 1.5,
+        "origin_Y": -1,
+        "origin_Z": 0,
+        "angles_W": 0.999048,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.043619
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2966,
+        "object_Id": 1999,
+        "probability": 0.6,
+        "weenie_Class_Id": 4175,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 2,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 3341,
+        "object_Id": 4175,
+        "probability": 0.2,
+        "weenie_Class_Id": 2612,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -4,
+        "origin_Y": -1,
+        "origin_Z": 0,
+        "angles_W": -0.707107,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.707107
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3342,
+        "object_Id": 4175,
+        "probability": 0.4,
+        "weenie_Class_Id": 2612,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 4.4,
+        "origin_Y": 4.4,
+        "origin_Z": 0,
+        "angles_W": 0.866025,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.5
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3343,
+        "object_Id": 4175,
+        "probability": 0.5,
+        "weenie_Class_Id": 2612,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 2.4,
+        "origin_Y": -1.4,
+        "origin_Z": 0,
+        "angles_W": 0.996195,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.087156
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3344,
+        "object_Id": 4175,
+        "probability": 0.8,
+        "weenie_Class_Id": 2612,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": -2,
+        "origin_Y": -2,
+        "origin_Z": 0,
+        "angles_W": 0.953717,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.300706
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 3345,
+        "object_Id": 4175,
+        "probability": 1,
+        "weenie_Class_Id": 4179,
+        "delay": 1800,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 4,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 0.999048,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": -0.043619
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2967,
+        "object_Id": 1999,
+        "probability": 0.66,
+        "weenie_Class_Id": 946,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2968,
+        "object_Id": 1999,
+        "probability": 0.72,
+        "weenie_Class_Id": 6,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 2,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2969,
+        "object_Id": 1999,
+        "probability": 0.78,
+        "weenie_Class_Id": 215,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2970,
+        "object_Id": 1999,
+        "probability": 0.81,
+        "weenie_Class_Id": 4111,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2971,
+        "object_Id": 1999,
+        "probability": 0.87,
+        "weenie_Class_Id": 2612,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 2,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2972,
+        "object_Id": 1999,
+        "probability": 0.92,
+        "weenie_Class_Id": 7990,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 16603,
+        "object_Id": 7990,
+        "probability": 1,
+        "weenie_Class_Id": 26689,
+        "delay": 0,
+        "init_Create": 1,
+        "max_Create": -1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 3
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2973,
+        "object_Id": 1999,
+        "probability": 0.95,
+        "weenie_Class_Id": 8010,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2974,
+        "object_Id": 1999,
+        "probability": 0.97,
+        "weenie_Class_Id": 6535,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2975,
+        "object_Id": 1999,
+        "probability": 0.99,
+        "weenie_Class_Id": 211,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2976,
+        "object_Id": 1999,
+        "probability": 0.994,
+        "weenie_Class_Id": 11989,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 15189,
+        "object_Id": 11989,
+        "probability": 0.25,
+        "weenie_Class_Id": 1464,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 15190,
+        "object_Id": 11989,
+        "probability": 0.5,
+        "weenie_Class_Id": 192,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 15191,
+        "object_Id": 11989,
+        "probability": 0.75,
+        "weenie_Class_Id": 7,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 15192,
+        "object_Id": 11989,
+        "probability": 1,
+        "weenie_Class_Id": 940,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2977,
+        "object_Id": 1999,
+        "probability": 0.997,
+        "weenie_Class_Id": 12004,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 15960,
+        "object_Id": 12004,
+        "probability": 0.34,
+        "weenie_Class_Id": 2612,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 15961,
+        "object_Id": 12004,
+        "probability": 0.67,
+        "weenie_Class_Id": 2612,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 15962,
+        "object_Id": 12004,
+        "probability": 1,
+        "weenie_Class_Id": 2612,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 2978,
+        "object_Id": 1999,
+        "probability": 1,
+        "weenie_Class_Id": 12017,
+        "delay": 1200,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 15,
+      "encounter": {
+        "weenie_Class_Id": 1999,
+        "landblock": 41648,
+        "cell_X": 2,
+        "cell_Y": 1
+      }
+    },
+    {
+      "generator": {
+        "id": 16025,
+        "object_Id": 12017,
+        "probability": 0.34,
+        "weenie_Class_Id": 12,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 16026,
+        "object_Id": 12017,
+        "probability": 0.67,
+        "weenie_Class_Id": 12,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ],
+  [
+    {
+      "generator": {
+        "id": 16027,
+        "object_Id": 12017,
+        "probability": 1,
+        "weenie_Class_Id": 12,
+        "delay": 20,
+        "init_Create": 1,
+        "max_Create": 1,
+        "when_Create": 1,
+        "where_Create": 2,
+        "stack_Size": -1,
+        "palette_Id": 0,
+        "shade": 0,
+        "obj_Cell_Id": 0,
+        "origin_X": 0,
+        "origin_Y": 0,
+        "origin_Z": 0,
+        "angles_W": 1,
+        "angles_X": 0,
+        "angles_Y": 0,
+        "angles_Z": 0
+      },
+      "radius": 5
+    }
+  ]
+]
