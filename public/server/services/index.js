@@ -1,2 +1,1 @@
-// exports.locations       = require('./locations');
-exports.geocode       = require('./geocode');
+exports.geocoder = require("./geocoder");

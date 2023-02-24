@@ -7,7 +7,6 @@
 <script setup>
 import { ref, reactive, computed, watch, onMounted, toRaw } from "vue";
 import L from "leaflet";
-// import * as turf from "@turf/turf";
 import { orderBy, debounce } from "lodash";
 import { useAtlasStore } from "@/store/atlas";
 import mapIcons from '@/common/mapIcons.js';
@@ -680,7 +679,7 @@ const onMapMouseDown = (event) => {
 };
 
 const onMapMouseUp = (event) => {
-  console.log("onMapMouseDown");
+  console.log("onMapMouseUp");
   mapMouseDown.value = false;
 };
 
@@ -709,9 +708,11 @@ const onMapZoomEnd = async (event) => {
     }
   }
 };
+
 const onMapResize = () => {
   console.log("Method: onMapResize");
 };
+
 const onMapReady = async () => {
   console.log("Method: mapReady");
   isMapReady.value = true;
@@ -730,6 +731,10 @@ const getVisibleLocations = async () => {
   const currentBoundsPad = map.value.getBounds().pad(0.25);
   const bbox = currentBoundsPad.toBBoxString();
   return atlasStore.getLocations(currentZoom, bbox);
+};
+
+const onDatabaseUpdate = () => {
+  console.log("Method: onMapResize");
 };
 
 const renderLandblockGrid = () => {

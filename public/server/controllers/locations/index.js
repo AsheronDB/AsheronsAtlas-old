@@ -1,23 +1,7 @@
-const path = require("path");
-const rootPath = path.join(__dirname, "..", "..");
-const services = require(path.join(rootPath, "services"));
-const fs = require("fs");
-
 const { globalToPos } = require("@asherondb/ac-position");
-
-const { coordEach, featureCollection } = require("@turf/turf");
-
-const getLocationsFile = () => {
-  return JSON.parse(
-    fs.readFileSync(path.join(rootPath, "data", "locations.json")).toString()
-  );
-};
-
-const getRegionsFile = () => {
-  return JSON.parse(
-    fs.readFileSync(path.join(rootPath, "data", "regions-new-test.geo.json")).toString()
-  );
-};
+// const { locations, regions, creatures } = require("#server/config/data.js");
+const { featureToLeafletLatLng, readData } = require("#server/common/utils.js");
+const { geocoder } = require('#server/services/index.js');
 
 const DERETH_MAP_MAX_ZOOM = 11;
 const DERETH_MAP_MIN_ZOOM = 0;
@@ -115,62 +99,45 @@ function getZoomCategories(zoom) {
 // }
 
 exports.locations_get = async function (req, res) {
-  const validCategories = getZoomCategories(req.query.zoom);
+  const allFeatures = readData();
+  const locations = allFeatures.filter(
+    (feature) =>
+      feature.properties.type == "location" && feature.geometry.type == "Point"
+  );
 
-  // southwest_lng,southwest_lat,northeast_lng,northeast_lat'
-  const bbox = req.query.bbox.split(",");
+  let filteredLocations = locations;
 
-  console.log(bbox);
-  console.log(validCategories);
-
-  const locationsData = getLocationsFile().features;
-
-  const filteredData = locationsData
-    .filter((location) => location.geometry.type == "Point")
-    .filter((location) => {
+  if (req.query.bbox) {
+    const bbox = req.query.bbox.split(",");
+    filteredLocations = filteredLocations.filter((location) => {
       const x = location.geometry.coordinates[0];
       const y = location.geometry.coordinates[1];
-      // && validCategories.includes(location.properties.category)
-
-      // let x = value.geometry.coordinates[1];
-      // let y = value.geometry.coordinates[0];
-
-      // if (
-      //   bboxCoordsTopLeft[0] <= x &&
-      //   x <= bboxCoordsBotRight[0] &&
-      //   bboxCoordsTopLeft[1] >= y &&
-      //   y >= bboxCoordsBotRight[1] &&
-      //   ((currentZoom >= value.properties.zoom.min &&
-      //     currentZoom <= value.properties.zoom.max) ||
-      //     value.properties.selected)
-      // ) {
-
-      if (
-        x >= bbox[0] &&
-        x <= bbox[2] &&
-        y >= bbox[1] &&
-        y <= bbox[3] &&
-        validCategories.includes(location.properties.category)
-      ) {
-        return true;
-      } else {
-        return false;
-      }
+      return x >= bbox[0] && x <= bbox[2] && y >= bbox[1] && y <= bbox[3];
     });
+  }
 
-  let collection = featureCollection(filteredData);
+  if (req.query.zoom) {
+    const validZoomCategories = getZoomCategories(req.query.zoom);
+    filteredLocations = filteredLocations.filter((location) =>
+      validZoomCategories.includes(location.properties.category)
+    );
+  }
 
-  coordEach(collection, (currentCoord) => {
-    let newCoords = currentCoord;
-    let [xMap, yMap] = newCoords;
+  filteredLocations = filteredLocations.map((location) => {
+    const reverseGeocode = geocoder.reverse(location.geometry.coordinates);
+    if (reverseGeocode && reverseGeocode.length > 0)
+      location.properties.reverseGeocode = reverseGeocode;
 
-    currentCoord.length = 0;
-    currentCoord[0] = yMap;
-    currentCoord[1] = xMap;
+    location.properties.position = globalToPos(
+      location.geometry.coordinates[0],
+      location.geometry.coordinates[1]
+    );
+
+    return featureToLeafletLatLng(location);
   });
 
   try {
-    res.send(filteredData);
+    res.send(filteredLocations);
   } catch (err) {
     return console.error(err.message);
   } finally {
@@ -179,42 +146,12 @@ exports.locations_get = async function (req, res) {
 };
 
 exports.location_get = async function (req, res) {
-  const locationId = req.params.id;
+  const id = req.params.id;
+  const allFeatures = readData();
 
-  const locationsData = getLocationsFile().features;
-  const regionsData = getRegionsFile().features;
-
-  const allLocations = [...locationsData, ...regionsData];
-
-  const location = allLocations.find(
-    (location) => location.properties.id === locationId
+  const location = allFeatures.find(
+    (location) => location.properties.id === id
   );
-
-  if (location.geometry.type == "Point") {
-    const reverseGeocode = services.geocode.reverse(
-      location.geometry.coordinates
-    );
-
-    location.properties.reverseGeocode = reverseGeocode;
-    location.properties.position = globalToPos(
-      location.geometry.coordinates[0],
-      location.geometry.coordinates[1]
-    );
-
-    coordEach(location, (currentCoord) => {
-        let newCoords = currentCoord;
-        let [xMap, yMap] = newCoords;
-    
-        currentCoord.length = 0;
-        currentCoord[0] = yMap;
-        currentCoord[1] = xMap;
-      });
-      
-  } else {
-    // Figure out how to handle reverse geocoding for polygon regions here
-  }
-
- 
 
   try {
     res.send(location);

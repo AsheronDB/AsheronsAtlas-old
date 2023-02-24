@@ -1,10 +1,9 @@
-let path = require("path");
-var cors = require("cors");
-var bodyParser = require("body-parser");
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const SERVER_HOST = "127.0.0.1";
+const SERVER_PORT = 0; // 0 to pick random available port -- 55436 for testing
 
 (async () => {
-  console.log("I'M THE SERVER");
-
   const express = require("express");
   const app = express();
 
@@ -15,15 +14,11 @@ var bodyParser = require("body-parser");
   );
   app.use(bodyParser.json());
   app.use(cors());
+  app.use(require("./routes"));
 
-  const port = 0; // 0 to pick random available port -- 55436
-
-  const api = require("./routes");
-  app.use(api);
-
-  let server = app.listen(port, '127.0.0.1', () => {
-    let currentPort = server.address().port;
-    console.log(currentPort);
+  const server = app.listen(SERVER_PORT, SERVER_HOST, () => {
+    const currentPort = server.address().port;
+    console.log(`Server started, listening on ${currentPort}`);
     process.send({
       status: "ready",
       port: currentPort,

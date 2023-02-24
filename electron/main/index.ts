@@ -12,10 +12,8 @@ autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = "info";
 log.info("App starting...");
 
+// TODO: Add channel selector to user preferences
 autoUpdater.channel = 'alpha';
-
-console.log("Crash dumps dir");
-console.log(app.getPath("crashDumps"));
 
 let serverProcess;
 let rendererWindow: BrowserWindow | null = null;

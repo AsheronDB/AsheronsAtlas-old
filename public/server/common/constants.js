@@ -2,8 +2,6 @@ const { pick } = require('lodash');
 
 exports.ASHERONDB_API_DOCS_URL = 'https://asherondb.com/api';
 exports.STRAPI_URL = 'http://asherondb-strapi:1337/api';
-
-
 exports.GLOBAL_COORDS_MAX = 48960;
 exports.GLOBAL_COORDS_MIN = 0;
 exports.BLOCK_LENGTH = 192;
@@ -12,6 +10,12 @@ exports.CELL_LENGTH = 24;
 exports.DERETH_MAP_TILE_SIZE = 256;
 exports.DERETH_MAP_MAX_ZOOM = 11;
 exports.DERETH_MAP_MIN_ZOOM = 0;
+
+exports.GEO_DATA_TYPES = { 
+    LOCATIONS: 'locations',
+    REGIONS: 'regions',
+    CREATURES: 'creatures'
+}
 
 exports.LOCATION_TYPES = {
     VENDOR: 'vendor',

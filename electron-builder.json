@@ -45,6 +45,7 @@
     "oneClick": false,
     "perMachine": true,
     "allowToChangeInstallationDirectory": true,
-    "deleteAppDataOnUninstall": true
+    "deleteAppDataOnUninstall": true,
+    "uninstallDisplayName": "Asheron's Atlas"
   }
 }
